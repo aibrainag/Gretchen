@@ -1,0 +1,117 @@
+:imagesdir: ./images
+
+= Gretchen Assembly Documentation
+
+This is the Gretchen assembly manual. Following these steps will enable you to build your humanoid robot from the assembly kit.
+
+=== Tool and Part List
+Before start the assembly. Check that you have all the tools and parts in place.
+
+
+== Recommended Tools
+
+You need these tools to assemble the Gretchen robot.
+
+* Allen keys (hex drivers)
+** M1.6 (bearing set screws)
+** M2   (belt tensioners)
+** M4   (motors and bearings)
+
+* Ring spanner M8 for joints
+* Small Phillips screw driver
+* Soldering iron with a fine tip for motor assembly
+* Brushes for painting the parts
+* Tweezers for motor control board assembly
+* Flat-nosed pliers or a crimp tool for custom cabling
+
+* Sandpaper or files
+* Clamps for glueing parts together
+
+*For self-manufacturing the body parts:*
+
+* Lab or home quality 3D printer, e.g. Ultimaker using ABS or tough PLA filament
+* Laser cutting or milling machine for the wooden parts
+
+
+
+== 3D Printed parts
+
+* 10x Tooth Belt Pulleys with DSpline connector
+* 2x Tooth Belt Pulleys with M8 Hex nut connector
+* 2x hip axel connector with integrated pulleys
+* 2x knee inner (L/R)
+* 2x knee outer (L/R) with integrated pulleys
+* 2x foot (L/R)
+* 2x ankle cardan gimbal
+* 2x Tooth Belt Pulleys for 4x M4 screws connector
+* *TODO:*
+
+*For self-manufacture your robot's body parts:*
+
+Home or Lab Quality printers shall suffice. Print with "Tough" PLA or ABS Plastic using 20% infill for the parts.
+Print using 0.1 mm layer height for parts that contain pulleys (tooth belts need precision here). Print using 0.2 mm layers for all other parts. We recommend using water soluble support structure if available.
+
+When using professional 3D-printing service, consider SLS (Selective Laser Sintering).
+
+
+== Laser Cut parts
+
+== Mechanical Standard parts
+
+== Electronic parts
+
+
+
+
+== Glueing
+
+The wooden parts are approx. 5mm thick. Each Gretchen body part (lower torso, thigh or shank) is composed of two 5mm wooden plates glued together to reach the 10mm needed. Hence, in your assembly kit you should have 4x shank, 4x thigh, 2x torso plates.
+
+image::lasercut_parts.jpg[]
+
+=== Prepare workbench.
+Make sure you have all the tools needed for glueing:
+
+* a lot of clamps (5 - 10 small clamps)
+* Sandpaper or fine file
+* small screwdriver
+* cutter knife
+* express wood glue
+
+image::prepare_workbench_and_tools.jpg[]
+
+=== Prepare the wood parts for glueing.
+Gently remove the remaining loose parts and price stickers, if any present. Depending on the laser cut depth, it may appear that remaining parts (clippings) must be removed carefully with a cutter knife or sandpaper.
+
+Approximated time needed: 5 - 10 minutes
+
+image::remove_loose_parts.jpg[]
+image::remove_stickers.jpg[]
+
+=== Glue the parts together.
+Glue the parts together preferably using express wood glue. Apply glue uniformly following the recommendations of the specific glue user manual.
+
+image::apply_glue_uniformly.jpg[]
+image::ready_for_glueing.jpg[]
+
+Use many small clamps to apply appropriate pressure distributed on the full surface. Use some of M4 screws to hold the parts in place and assure that the parts are nicely aligned before the glue gets dry.
+
+image::clamping_parts.jpg[]
+image::align_and_fix_with_screw.jpg[]
+
+Let the assembly dry for some time with the clamps attached. Follow specific instructions depending on the glue you are using. Remove remaining glue _after_ drying. Since otherwise smeared adhesive on the wood parts can not be painted well.
+
+image::excessive_glue.jpg[]
+
+Glueing takes approximately *10 - 15* minutes per part. But drying will probably take *1 - 2* hours depending on the glue you are using. Repeat the process for all wooden parts, i.e. one lower torso, two thighs, two shanks.
+
+The result should look like this:
+
+image::glue_result.jpg[]
+
+== Coloring
+
+== Assembly
+=== Bearings
+=== Knee
+=== Foot
