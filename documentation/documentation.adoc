@@ -1,16 +1,17 @@
 :imagesdir: ./images
+:toc:
 
 = Gretchen Assembly Documentation
 
 This is the Gretchen assembly manual. Following these steps will enable you to build your humanoid robot from the assembly kit.
 
 === Tool and Part List
-Before start the assembly. Check that you have all the tools and parts in place.
+Before starting the assembly. Check that you have all the tools and parts in place.
 
 
 == Recommended Tools
 
-You need these tools to assemble the Gretchen robot.
+You will need these tools to assemble the Gretchen robot.
 
 * Allen keys (hex drivers)
 ** M1.6 (bearing set screws)
@@ -25,7 +26,7 @@ You need these tools to assemble the Gretchen robot.
 * Flat-nosed pliers or a crimp tool for custom cabling
 
 * Sandpaper or files
-* Clamps for glueing parts together
+* Clamps (5-10) for glueing parts together
 
 *For self-manufacturing the body parts:*
 
@@ -60,7 +61,23 @@ When using professional 3D-printing service, consider SLS (Selective Laser Sinte
 
 == Electronic parts
 
+* 10x Sensorimotors
+* 10x Servo Motors Hitec HS-805MG
+* Acceleration Sensor (ADXL345) Breakout board GY-291
+* 2x Termination Resistor 220 Ohm
+* Cables according to the list below
 
+=== Cable lengths
+
+[cols=2*,options=header]
+|===
+| Name          | Length
+| thigh-2-shank | 42cm
+| shank-2-foot  | 38cm
+| hip-2-thigh   | 42cm
+| hip-2-hip     | 16cm
+| thigh-2-thigh | 16cm
+|===
 
 
 == Glueing
