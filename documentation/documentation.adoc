@@ -28,6 +28,9 @@ You will need these tools to assemble the Gretchen robot.
 * Sandpaper or files
 * Clamps (5-10) for glueing parts together
 
+* Acrylic paint (< 0.5m², color of your choice)
+* Acrylic clear coat
+
 *For self-manufacturing the body parts:*
 
 * Lab or home quality 3D printer, e.g. Ultimaker using ABS or tough PLA filament
@@ -127,6 +130,31 @@ The result should look like this:
 image::glue_result.jpg[]
 
 == Coloring
+
+Color is of course optional but gives your Gretchen an individual character. Nonetheless it is recommended to apply some clear coat to protect the wooden parts from humidity and fat.
+
+image::coloring_parts_start.jpg[]
+
+=== Paint the parts
+We recommend coloring the surfaces of the wooden parts and leave the nicely burned laser cut edges unpainted.
+
+image::coloring_parts_doing.jpg[]
+
+For instance we painted the outer surfaces orange and the inner surfaces antrazit.
+
+image::coloring_parts_orange.jpg[]
+image::coloring_parts_antrazit.jpg[]
+
+In the end it could look like this:
+
+image::coloring_parts_ready.jpg[]
+
+=== Applying clear coat
+
+After coloring or coating the wooden parts for the first time, little bristles come up and the surface feels very rough and bristly.
+Before finishing with the last coating layer, carefully use sandpaper to make the surface smooth without removing the color.
+
+image::coloring_parts_clearcoat.jpg[]
 
 == Assembly
 === Bearings
