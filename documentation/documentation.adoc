@@ -157,6 +157,48 @@ Before finishing with the last coating layer, carefully use sandpaper to make th
 image::coloring_parts_clearcoat.jpg[]
 
 == Assembly
+
+Assembly is done in several steps. Although there are many possible ways to assemble, we recommend the order given in the manual.
+
 === Bearings
+
+We begin the assembly with mounting the bearings. You need:
+
+* all five wooden parts
+* 16 bearings KFL08
+* 16 screws M4 x 25 mm
+* 16 lock nuts M4
+* 32 spring washers M4
+* an M4 hex screw driver and spanner
+
+Note: If you consider to use an electric screw driver we recommend using torque control.
+
+image::prepare_bearing_mounting.jpg[]
+
+Before starting, make sure to remove remaining glue from the screw holes. Use a drill or hex screw driver to remove the dried glue.
+
+image::remove_glue_in_holes.jpg[]
+
+The bearings are self-aligning, i.e. they can change their axes' direction. Bearings must be properly aligned, to guarantee a solid belt tension later. You should initially move the bearings once to slightly loosen the connection and more easily correct the alignment.
+
+image::centering_bearings.jpg[]
+
+Mount the bearings on both sides (dual bearing) using the M4 x 25 mm screws as shown in the picture. You should only tighten the screws loosely in the first place and than correct the axis to be perpendicular to the surface.
+
+image::assemble_loosly.jpg[]
+
+Check the proper rotation of the axes.
+
+image::check_bearing.jpg[]
+
+After proper centering the bearing, tighten screws. The final result should look like this.
+
+image::bearing_mounted_0.jpg[]
+
+image::bearing_mounted_1.jpg[]
+
+image::bearing_mounted_finished.jpg[]
+
+
 === Knee
 === Foot
