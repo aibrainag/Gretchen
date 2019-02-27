@@ -169,7 +169,7 @@ We begin the assembly with mounting the bearings. You need:
 * 16 screws M4 x 25 mm
 * 16 lock nuts M4
 * 32 spring washers M4
-* an M4 hex screw driver and spanner
+* an M4 hex screw driver and complementary a spanner
 
 Note: If you consider to use an electric screw driver we recommend using torque control.
 
@@ -201,4 +201,46 @@ image::bearing_mounted_finished.jpg[]
 
 
 === Knee
+
+The next step is mounting the knees. Prepare workbench by compiling the needed parts (per knee):
+
+* shank with bearings
+* knee inner
+* knee outer (with integrated tooth belt pulley)
+* 2x M4 x 40 mm screws
+* 1x M4 x 30 mm screw
+
+Tools:
+
+* (electric) screwdriver,
+* clamp (optional),
+* M5 drill (optional)
+
+image::prepare_mounting_knee.jpg[]
+
+Insert the 3 screws into the outer knee part (with pulley). Insert only as deep as the screw tips are barely visible, just enough to find the corresponding hole in the wooden part.
+
+image::knee_mounting_0.jpg[]
+
+Screw the two parts together. Probably pressing the part down to the workbench might help to get the screws inserted. Again, turn only as far as the tips of the screws are barely visible.
+
+image::knee_mounting_1.jpg[]
+
+Carefully sinking the holes of the inner side of the second plastic part with a drill of size 5mm will help the screws _finding_ the holes. Sink less than 1mm.
+
+image::knee_mounting_sink_hole.jpg[]
+
+Mount the second part, optionally using a clamp, to have the parts perfectly aligned. Since there are no dedicated nuts here, don't turn to fast and powerful, the screw will create their own thread into the plastic, which must be preserved.
+
+image::knee_mounting_2.jpg[]
+
+After mounting the knee, the result should look like this. Again, don't overturn here. Use torque limiter on your electric screwdriver.
+
+image::knee_mountin_ready_0.jpg[]
+
+Repeat the process with the second knee.
+
+image::knee_mountin_ready_both.jpg[]
+
+
 === Foot
