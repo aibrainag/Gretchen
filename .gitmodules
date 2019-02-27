@@ -1,0 +1,6 @@
+[submodule "software/libsensorimotor"]
+	path = software/libsensorimotor
+	url = https://github.com/suprememachines/libsensorimotor.git
+[submodule "software/sensorimotor"]
+	path = software/sensorimotor
+	url = https://github.com/suprememachines/sensorimotor.git
