@@ -243,4 +243,36 @@ Repeat the process with the second knee.
 image::knee_mountin_ready_both.jpg[]
 
 
+=== Hip
+
+==== Assemble Hex Nut Pulleys
+Prepare workbench for assembly, you need the both pulleys and 2 hex nuts with flat form. Depending on the print tolerances you either need addionally a *clamp* for adding a little force to insert or need some *express glue* to keep the hex nut in place, if it is too loose.
+
+image::prepare_hex_nut_pulley.jpg[]
+
+This is how the hex nut should be inserted.
+
+image::hex_nut_inserted_into_pulley.jpg[]
+
+If the pocket is too tight, use the clamp for insertion. If it is too loose use a little drop of express glue to keep it in place.
+
+image::forcing_hex_nut_insertion_with_clamp.jpg[]
+
+==== Inserting the bolts' threading into pulley
+Next step is to cut the threading into the pulleys.
+
+image::prepare_hex_nut_pulley_bolt_insertion.jpg[]
+
+If you have an M8 threading drill at hand, use this, otherwise use the M8 screw directly to cut the threading. Always begin with the cutting from the nut side, in order to assure a continuos threading between nut and plastic.
+Using the wrench for cutting will need a little power, so prepare for the turning to need a little more torque than usual.
+
+image::hex_nut_pulley_threading_with_drill.jpg[]
+
+image::hex_nut_pulley_threading_with_bolt.jpg[]
+
+Insert the bolt from the other side and repeat the process for the second pulley.
+
+image::hex_nut_pulleys_with_bolts_ready.jpg[]
+
+
 === Foot
