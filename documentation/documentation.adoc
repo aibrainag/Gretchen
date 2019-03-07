@@ -274,5 +274,41 @@ Insert the bolt from the other side and repeat the process for the second pulley
 
 image::hex_nut_pulleys_with_bolts_ready.jpg[]
 
+Remove remaining overextruded plastic or sharp edges using sand paper or cutter.
+
+image::clean_sand_hip_parts.jpg[]
+
+Check for clean and even pockets and glue the nuts into the pockets using express glue. Probably check the nut for good quality to guarantee a perpendicular bolt alignment.
+
+image::glue_nuts_into_pockets.jpg[]
+
+Use clamps while let drying the glue.
+
+image::use_clamps_to_dry_glued_nuts.jpg[]
+
+As before use the threading drill carefully with limited torque.
+
+image::drill_threading_hip_part.jpg[]
+
+Turning bolts into threading holes should be moderately easy, otherwise check threading.
+Again, always drill using the nut to assure a continouosly cutted threading.
+
+image::check_hole_depth.jpg[]
+
+The holes should be around 15 mm in depth. Check with the bolt and some removable tape for instance.
+
+image::prepare_tools_workbench_hip_assembly.jpg[]
+
+Get all tools and parts ready for assembly.
+Turn one of the nuts onto the bolt with the pre-assembled pulley and lock it to the nut in the hex pocket to form a solid connection with the bolt (locking nut).
+
+image::tighten_M8_nut_on_hip.jpg[]
+
+Insert the distance washer and thigh as depicted below and finally add the hip axel connector (also using a nut for locking).
+The normal washer must be inserted to the outer side (lower profile) and the spring washer to the inner side. The spring washer is just for eating up the free space preventing play and should not be tensed. Check this with turning the axis, if it feels spongy then the spring washer is tensed too much.
+
+image::hip_result_using_washers_for_distance.jpg[]
+
+Repeat with the second hip accordingly.
 
 === Foot
