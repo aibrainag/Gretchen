@@ -245,6 +245,9 @@ image::knee_mountin_ready_both.jpg[]
 
 === Hip
 
+Always remember: *Easy does it. Don't push too hard.* In German: "Nach fest kommt ab." (After firmly comes off.)
+
+
 ==== Assemble Hex Nut Pulleys
 Prepare workbench for assembly, you need the both pulleys and 2 hex nuts with flat form. Depending on the print tolerances you either need addionally a *clamp* for adding a little force to insert or need some *express glue* to keep the hex nut in place, if it is too loose.
 
@@ -312,3 +315,44 @@ image::hip_result_using_washers_for_distance.jpg[]
 Repeat with the second hip accordingly.
 
 === Foot
+
+
+=== Motors
+
+Prepare workbench and get all the needed tools.
+
+image::desolder_tools.jpg[]
+
+==== Open the motor box.
+
+Secure the gearbox with some removable tape.
+
+image::tape_motorbox.jpg[]
+
+Unscrew the six housing screws and remove the cover and keep the screws separately (we will need them later).
+
+image::unscrew_motor_cover.jpg[]
+
+Stabilize the motor using a clamp or similar.
+Use a desolder pump to remove solder from the motor pins.
+Consider using a higher soldering temperature (e.g. 410°C) since the (power-)pads will sink a lot of heat. And depending on the soldering station/iron you are using this may drop the temperature on the tip of the iron a little below melting piont, and thus makes desoldering hard. We recommend to always add flux or add a little fresh solder (which has flux included) to make desoldering easier.
+
+image::desolder_motorpins.jpg[]
+image::desolder_motorpins_result_commented.jpg[]
+
+Heat up the grounding pin and lift the board with a pointed tool while continuing heating. The grounding pin either remains at the motor case or on board side, no matter remove it or leave it for later use.
+The grounding pin will sink excessive heat, so be patient and use enough heat and time to thouroughly melt the solder.
+
+image::desolder_grounding_pins.jpg[]
+
+Cut the red, yellow and green cable very close to the boards and remove the board, be carefull the edges of the board may be hot due to heaten up ground layer which is going close to the edges.
+
+image::cut_cables_and_remove_board.jpg[]
+
+Remove any loose solder remainings carefully. Use vacuum cleaner if needed. Remove any loose glue remaining. Recycle or archive the boards, covers and accessoires, since we do not need them anymore. Keep the screws, will be needed later.
+
+image::motorboard_removal_complete.jpg[]
+
+Repeat the process for all motors.
+
+image::all_motors_ready.jpg[]
