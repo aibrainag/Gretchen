@@ -325,6 +325,11 @@ image::desolder_tools.jpg[]
 
 ==== Remove servo controller.
 
+See some videos for a quick overview. Read text and see images below for detailed step by step explanations on how to desolder the servo motors printed circuit boards and install the Sensorimotors.
+
+video::jpkWSJoK_m4[youtube]
+video::5hQtV_ZHUZk[youtube]
+
 Secure the gearbox with some removable tape.
 
 image::tape_motorbox.jpg[]
@@ -358,6 +363,9 @@ Repeat the process for all motors.
 image::all_motors_ready.jpg[]
 
 ==== Assemble Sensorimotor Board
+
+video::D0k9pQJAyEo[youtube]
+
 Get the 10 sensorimotor board and the through hole parts which need to be soldered.
 
 image::get_sensorimotors.jpg[]
