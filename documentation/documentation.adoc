@@ -327,7 +327,13 @@ image::desolder_tools.jpg[]
 
 See some videos for a quick overview. Read text and see images below for detailed step by step explanations on how to desolder the servo motors printed circuit boards and install the Sensorimotors.
 
+
+video: https://www.youtube.com/watch?v=jpkWSJoK_m4[sensorimotor_assembly_01_removing_old_controller]
+
 video::jpkWSJoK_m4[youtube]
+
+video:  https://www.youtube.com/watch?v=5hQtV_ZHUZk[sensorimotor_assembly_02_desoldering_detail]
+
 video::5hQtV_ZHUZk[youtube]
 
 Secure the gearbox with some removable tape.
@@ -363,6 +369,8 @@ Repeat the process for all motors.
 image::all_motors_ready.jpg[]
 
 ==== Assemble Sensorimotor Board
+
+video:  https://www.youtube.com/watch?v=D0k9pQJAyEo[sensorimotor_assembly_03_soldering_through_hole_parts]
 
 video::D0k9pQJAyEo[youtube]
 
