@@ -323,7 +323,7 @@ Prepare workbench and get all the needed tools.
 
 image::desolder_tools.jpg[]
 
-==== Open the motor box.
+==== Remove servo controller.
 
 Secure the gearbox with some removable tape.
 
@@ -341,7 +341,7 @@ image::desolder_motorpins.jpg[]
 image::desolder_motorpins_result_commented.jpg[]
 
 Heat up the grounding pin and lift the board with a pointed tool while continuing heating. The grounding pin either remains at the motor case or on board side, no matter remove it or leave it for later use.
-The grounding pin will sink excessive heat, so be patient and use enough heat and time to thouroughly melt the solder.
+The grounding pin will sink excessive heat, so be patient and use enough heat and time to thoroughly melt the solder.
 
 image::desolder_grounding_pins.jpg[]
 
@@ -356,3 +356,39 @@ image::motorboard_removal_complete.jpg[]
 Repeat the process for all motors.
 
 image::all_motors_ready.jpg[]
+
+==== Assemble Sensorimotor Board
+Get the 10 sensorimotor board and the through hole parts which need to be soldered.
+
+image::get_sensorimotors.jpg[]
+image::sensorimotor_through_hole_parts.jpg[]
+
+Get all the needed and recommended tools. Use a fine solder tip and thin solder for the best quality. Set solder temperature a little above recommended for compensating the heat sink due to power pads.
+
+image::sensorimotor_tools_needed.jpg[]
+image::sensorimotor_recommended_solder_tools.jpg[]
+image::sensorimotor_recommended_fine_pitch_solder_tip.jpg[]
+
+Insert the Motorcord (RS485, 4-pin, white, rectangluar) sockets and the I2C connector (black) from top side and solder from bottom side. Check for clearly separated pins.
+
+image::sensorimotor_insert_sockets.jpg[]
+image::sensorimotor_check_solder_pins.jpg[]
+
+Insert and solder the ISP 6-pin header next. You can use the capacitor to balance the board.
+
+image::sensorimotor_solder_ISP_header.jpg[]
+image::sensorimotor_check_ISP_pins.jpg[]
+
+Bend the two pins of the thermistor (TO92 housing) by 90 degrees and solder to the bottom of the board, the thermistor body should be placed below the H-bridge with the flat side close to the surface.
+
+image::sensorimotor_bend_thermistor.jpg[]
+image::sensorimotor_solder_thermistor.jpg[]
+
+Insert the electrolytic capacitor from bottom side, check for correct polarity and solder. The negative (GND) pin will be sinking a lot of heat because it is directly connected to a large ground plane, be prepared for this taking some more seconds for the solder/pad to reach the melting temperature. Cut/remove the remaining material close to the board
+
+image::sensorimotor_insert_polarized_capacitor.jpg[]
+image::sensorimotor_remove_remaining_pin.jpg[]
+
+Repeat the process for all sensorimotor boards.
+
+image::sensorimotor_ready_1.jpg[]
