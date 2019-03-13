@@ -395,7 +395,7 @@ Insert and solder the ISP 6-pin header next. You can use the capacitor to balanc
 image::sensorimotor_solder_ISP_header.jpg[]
 image::sensorimotor_check_ISP_pins.jpg[]
 
-Bend the two pins of the thermistor (TO92 housing) by 90 degrees and solder to the bottom of the board, the thermistor body should be placed below the H-bridge with the flat side close to the surface.
+Bend the two pins of the thermistor (TO92 housing) by 90 degrees and solder to the bottom of the board, the thermistor body should be placed left below the H-bridge with the flat side close to the surface.
 
 image::sensorimotor_bend_thermistor.jpg[]
 image::sensorimotor_solder_thermistor.jpg[]
@@ -408,3 +408,25 @@ image::sensorimotor_remove_remaining_pin.jpg[]
 Repeat the process for all sensorimotor boards.
 
 image::sensorimotor_ready_1.jpg[]
+
+
+
+==== Install Sensorimotor into servo
+
+Get all the tools and prepare workbench for installation.
+
+image::tools_for_installing_sensorimotor.jpg[]
+
+Check if cover fits to the servo box, remove any remaining support material or grain. Check if Sensorimotor board fits into cover frame.
+
+image::check_cover_fits_on_motorbox.jpg[]
+image::check_sensorimotor_fits_into_cover.jpg[]
+
+Strip the wires of the potentiometer, twist/focus the wires' ends with your finger tips and pre-solder the wires to best fit into solder holes.
+
+image::strip_wires_of_potentiometer.jpg[]
+image::potentiometer_wires_pre-soldered.jpg[]
+
+Cut, strip and pre-solder the motor wires, approximately 5cm each.
+
+image::motor_wires_5cm.jpg[]
