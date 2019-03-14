@@ -427,6 +427,37 @@ Strip the wires of the potentiometer, twist/focus the wires' ends with your fing
 image::strip_wires_of_potentiometer.jpg[]
 image::potentiometer_wires_pre-soldered.jpg[]
 
+Solder potentiometer pins in the shown order! Be careful, the cables' isolation may melt (and then retract) quickly. Cut the cables' ends close above the board.
+
+image::solder_potentiometer_pins.jpg[]
+
 Cut, strip and pre-solder the motor wires, approximately 5cm each.
 
 image::motor_wires_5cm.jpg[]
+
+Solder the motor wires and the grounding cable in the shown order. Soldering the ground cable to the motor shielding is sinking much heat, this will probably require to give your soldering station a boost (e.g. I use to solder this cable with 450°C).
+Attention: We recommend to use shrinking tubing to isolate the motor pins here, since the cables will be very close to each other and short circuits are otherwise very likely.
+
+image::solder_motor_wires.jpg[]
+
+Bend the motor wires carefully to fit below the board and push down the cables, check if everything will fit.
+
+image::bend_motor_wires.jpg[]
+image::bend_motor_wires_2.jpg[]
+image::push_down_cables_carefully.jpg[]
+
+Mount the 3D-printed plastic cover on the boards and install the screws.
+
+image::mount_cover_to_motorbox.jpg[]
+
+This is how the motor should look like when fully assembled.
+
+image::sensorimotor_fully_assembled_with_servo.jpg[]
+
+Use the multimeter to check for potential short circuits on every recently soldered connections visible from the top side (i.e. check resistance, most devices will bleep when there is no sufficient resistance.) Between the motor connections there should be a low resistance, since you checking for the motor coil. All other connections must be free of short circuits.
+
+image::shortcircuit_check.jpg[]
+
+Repeat the process for the rest of the motors.
+
+image::sensorimotors_finished.jpg[]
