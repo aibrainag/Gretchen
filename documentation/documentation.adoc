@@ -411,7 +411,11 @@ image::sensorimotor_ready_1.jpg[]
 
 
 
-==== Install Sensorimotor into servo
+==== Installing Sensorimotor into Servo
+
+video:  https://www.youtube.com/watch?v=vMh9dKeaUrc[sensorimotor_assembly_03_installing board]
+
+video::vMh9dKeaUrc[youtube]
 
 Get all the tools and prepare workbench for installation.
 
