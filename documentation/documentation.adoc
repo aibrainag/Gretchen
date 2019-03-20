@@ -465,3 +465,74 @@ image::shortcircuit_check.jpg[]
 Repeat the process for the rest of the motors.
 
 image::sensorimotors_finished.jpg[]
+
+=== Flashing Firmware
+
+TODO
+
+=== Setting Motors IDs
+
+To set the motors IDs connect motors to the RS-485-to-USB adapter, one after another, each motor separately. Go to the tools directory and find the python script called `set_id.py`.
+
+Run the python script
+....
+python set_id.py
+....
+in any terminal or
+....
+./set_id.py
+....
+in your Linux shell to scan for motor ids. Motors which do not yet have an ID set are set by default to `127`.
+To set a motor's ID, specify the board number with `-b 127`, (127 in case the motor was never given an ID or firmware was updated and ID erased) and specify new ID `-n 7` e.g. if you desired new motor ID shall be `7`
+
+....
+./set_id.py -b 127 -n 7
+....
+
+Check if all IDs were successfully set.
+
+image::motors_respond_to_ping.png[]
+
+
+=== Assemble the Legs
+
+Get all the tools and parts.
+
+image::parts_and_tools_for_leg_assembly.jpg[]
+
+It is important that all remaining glue is removed and that the motor holes are clean and even to have the motor best fit into it.
+
+image::remove_remaining_glue_from_servo_hole.jpg[]
+
+Insert hex nut same as before, use a clamp or exress glue.
+
+image::insert_nut_into_knee_pulley.jpg[]
+
+Cut the threading same as before using the hex nut. Test the threading with the 60mm M8 bolt.
+
+image::cut_threading_and_test_bolt.jpg[]
+
+Insert the two thigh motors (hip-pitch and knee pitch), pay attention to mount them in the correct orientation.
+
+image::insert_thigh_motors.jpg[]
+
+Make sure using washers to protect the motors plastic screw holes and wood surface from the turning bolt heads and nuts.
+
+image::use_washers_for_the_motor_bolts.jpg[]
+
+Insert the shank motor, again pay attention to mount it in the correct orientation.
+
+image::insert_shank_motors.jpg[]
+
+Use washers to fill the gap on the inside and a spring washer to tense the bolt.
+
+image::use_spring_washer_for_knee_bolt.jpg[]
+image::use_washer_inside.jpg[]
+
+Add a counter locking nut.
+
+image::use_counter_nut_for_locking.jpg[]
+
+Repeat with the second leg following the same procedure. This is result.
+
+image::legs_ready_for_next_step.jpg[]
