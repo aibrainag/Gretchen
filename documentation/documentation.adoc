@@ -413,7 +413,11 @@ image::sensorimotor_ready_1.jpg[]
 
 ==== Installing Sensorimotor into Servo
 
-video:  https://www.youtube.com/watch?v=vMh9dKeaUrc[sensorimotor_assembly_03_installing board]
+video:  https://www.youtube.com/watch?v=W5wTd_JIoqk[sensorimotor_assembly_04_prepare_cover]
+
+video::W5wTd_JIoqk[youtube]
+
+video:  https://www.youtube.com/watch?v=vMh9dKeaUrc[sensorimotor_assembly_05_installing board]
 
 video::vMh9dKeaUrc[youtube]
 
@@ -466,11 +470,27 @@ Repeat the process for the rest of the motors.
 
 image::sensorimotors_finished.jpg[]
 
+Get some labels with the motors' IDs and put them on each individual motor.
+
+image::label_motor_ids.jpg[]
+
 === Flashing Firmware
 
 TODO
 
+video:  https://www.youtube.com/watch?v=vXhYqfAI-04[sensorimotor_assembly_06_test_and_setting_fuses]
+
+video::vXhYqfAI-04[youtube]
+
+image::sensorimotor_flashing_firmware.jpg[]
+
 === Setting Motors IDs
+
+Get the tools and cables needed to set the motors's IDs.
+
+image::tools_for_setting_motor_id.jpg[]
+
+image::connect_interface_for_pc_motor_com.jpg[]
 
 To set the motors IDs connect motors to the RS-485-to-USB adapter, one after another, each motor separately. Go to the tools directory and find the python script called `set_id.py`.
 
@@ -489,9 +509,18 @@ To set a motor's ID, specify the board number with `-b 127`, (127 in case the mo
 ./set_id.py -b 127 -n 7
 ....
 
-Check if all IDs were successfully set.
+video: https://www.youtube.com/watch?v=aV9UtVvDbz4[sensorimotor_assembly_08_setting_individual_motor_ids]
+
+video::aV9UtVvDbz4[youtube]
+
+
+Repeat for all motors and finally check if all IDs were successfully set.
 
 image::motors_respond_to_ping.png[]
+
+video: https://www.youtube.com/watch?v=CWDaAJ0dNk8[sensorimotor_assembly_09_checking_all_motors_ids]
+
+video::CWDaAJ0dNk8[youtube]
 
 
 === Assemble the Legs
