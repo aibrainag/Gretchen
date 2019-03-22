@@ -565,3 +565,31 @@ image::use_counter_nut_for_locking.jpg[]
 Repeat with the second leg following the same procedure. This is result.
 
 image::legs_ready_for_next_step.jpg[]
+
+=== Assemble the Lower Torso
+
+Get the parts and tools needed to assemble the lower torso. Follow the same procedure for the torso motors as with the leg motors using washers and spring washers accordingly.
+
+image::assemble_body.jpg[]
+
+Insert the motors given the orientation shown in the pictures.
+
+image::insert_motors_to_lower_torso.jpg[]
+image::check_proper_motor_orientation.jpg[]
+
+Get the materials for hip/torso assembly. Check the threading (cut it, if not already done, as described in earlier sections). You will need the 60mm bolts.
+
+image::get_the_materials_for_hip_assembly.jpg[]
+
+Assemble the bolt and nuts and washers in the shown order. 3-4 mm need to be eaten by the spring washers.
+Use the second hex nut for locking.
+
+image::hip_axel_connector_to_torso_mount.jpg[]
+
+Repeat with the second leg.
+
+image::mount_second_leg.jpg[]
+
+This is the expected result.
+
+image::torso_and_legs_assembled.jpg[]
