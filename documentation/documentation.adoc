@@ -5,50 +5,104 @@
 
 This is the Gretchen assembly manual. Following these steps will enable you to build your humanoid robot from the assembly kit.
 
-=== Tool and Part List
+== Tool and Part List
 Before starting the assembly. Check that you have all the tools and parts in place.
 
 
-== Recommended Tools
+=== Recommended Tools
 
-You will need these tools to assemble the Gretchen robot.
+You will need these tools to assemble the Gretchen (Dev0) robot.
 
 * Allen keys (hex drivers)
 ** M1.6 (bearing set screws)
 ** M2   (belt tensioners)
 ** M4   (motors and bearings)
 
-* Ring spanner M8 for joints
+* Ring spanner and socket wrench M8
 * Small Phillips screw driver
-* Soldering iron with a fine tip for motor assembly
+* Soldering iron with a very fine tip for motor assembly, up to 400°C (regulated) temperature
 * Brushes for painting the parts
 * Tweezers for motor control board assembly
 * Flat-nosed pliers or a crimp tool for custom cabling
+* Side-cutting pliers
+* Wire stripper
+* Utility knife
+* Multimeter
 
 * Sandpaper or files
 * Clamps (5-10) for glueing parts together
 
 * Acrylic paint (< 0.5m², color of your choice)
 * Acrylic clear coat
+* Wood Glue (Express)
+* Superglue
+
 
 *For self-manufacturing the body parts:*
 
 * Lab or home quality 3D printer, e.g. Ultimaker using ABS or tough PLA filament
 * Laser cutting or milling machine for the wooden parts
 
+=== Gretchen Assembly Kit Parts
 
-
-== 3D Printed parts
-
-* 10x Tooth Belt Pulleys with DSpline connector
-* 2x Tooth Belt Pulleys with M8 Hex nut connector
-* 2x hip axel connector with integrated pulleys
-* 2x knee inner (L/R)
-* 2x knee outer (L/R) with integrated pulleys
-* 2x foot (L/R)
-* 2x ankle cardan gimbal
-* 2x Tooth Belt Pulleys for 4x M4 screws connector
-* *TODO:*
+[cols=2*]
+|===
+2+| *Wooden Parts*
+| 2  | Torso plates, 5mm plywood
+| 4  | Thigh plates, 5mm plywood
+| 4  | Shank plates, 5mm plywood
+2+| *3D-Printed Parts*
+| 8  | Pulley, D-spline Motor 42T
+| 2  | Pulley, D-Spline Motor 33T
+| 2  | Pulley, M8 Hexnut
+| 2  | Hip X/Y with integrated Pulley
+| 2  | Knee (outer part, L/R, with integrated Pulley)
+| 2  | Knee (inner part, L/R)
+| 2  | Foot
+| 2  | Gimbal (Ankle)
+| 2  | Pulley for Gimbal 42T
+| 2  | Pulley for Gimbal 33T
+| 10 | Motor Cover (Sensorimotor to Hitec HS805MG)
+| 20 | Belt-Tensioner (optional)
+2+| *Drive Parts*
+| 20 | Flange Pillow Block Bearing KFL08
+| 8  | Timing Belt GT3, U=303mm, D=6mm
+| 2  | Timing Belt GT3, U=174mm, D=6mm
+2+| *Electronic Parts*
+| 12 | Hitec Servo Motor (10 + 2 Spare)
+| 10 | Sensorimotor board rev. 1.1
+| 10 | Temperature Sensor
+| 10 | Electrolytic Capacitor, 220µF
+| 10 | Pinheader 2x3 pins
+| 20 | Molex SPOX Sockets for Sensorimotor 4-pin rectangluar
+| 20 | Molex SPOX Plug 4-pin
+| 100 | Molex SPOX crimp terminals
+| 15 | Data cable, silicone, black (m)
+| 5  | Data cable, silicone, red (m)
+| 4 | Termination resistor
+| 2   | Sleeving (m)
+| 100 | cable ties
+2+| *Bolts and Nuts*
+2+| *M8*
+| 4  | M8 DIN 912, Threaded Bolt, L=70mm, Hex Head, A2
+| 4  | M8 DIN 912, Threaded Bolt, L=60mm, Hex Head, A2
+| 2  | M8 DIN 912, Threaded Bolt, L=40mm, Hex Head, A2
+| 2  | M8 DIN 912, Threaded Bolt, L=30mm, Hex Head, A2
+| 28 | M8 DIN 439, Hex Nut, flat form A2
+| 20 | M8 DIN 127, Split Lock Spring Washers
+| 10 | M8 DIN 125, Split Standard Washers
+2+| *M4*
+| 4  | M4 DIN 912, Threaded Bolt, L=40mm, Cylinder head, A2
+| 2  | M4 DIN 912, Threaded Bolt, L=30mm, Cylinder head, A2
+| 16 | M4 DIN 912, Threaded Bolt, L=25mm, Cylinder head, A2
+| 48 | M4 DIN 912, Threaded Bolt, L=20mm, Cylinder head, A2
+| 16 | M4 DIN 912, Threaded Bolt, L=12mm, Cylinder head, A2
+| 64 | M4 DIN 985, Hex Lock Nut
+| 80 | M4 DIN 127, Split Lock Spring Washer
+| 48 | M4 DIN 125, Standard Washer
+2+| *M2*
+| 20 | M2 DIN 912, Threaded Bolt, L=30mm, Hex Head, A2
+|===
 
 *For self-manufacture your robot's body parts:*
 
@@ -57,22 +111,9 @@ Print using 0.1 mm layer height for parts that contain pulleys (tooth belts need
 
 When using professional 3D-printing service, consider SLS (Selective Laser Sintering).
 
+=== List of Cable Lengths
 
-== Laser Cut parts
-
-== Mechanical Standard parts
-
-== Electronic parts
-
-* 10x Sensorimotors
-* 10x Servo Motors Hitec HS-805MG
-* Acceleration Sensor (ADXL345) Breakout board GY-291
-* 2x Termination Resistor 220 Ohm
-* Cables according to the list below
-
-=== Cable lengths
-
-[cols=2*,options=header]
+[cols=3*,options=header]
 |===
 | Name          | Length
 | thigh-2-shank | 42cm
