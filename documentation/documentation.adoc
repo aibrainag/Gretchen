@@ -688,7 +688,13 @@ NOTE: The feet are perfectly idententical from the mechanical point of view. How
 === Mouting feet
 
 Get the two feet and the needed tools and prepare some space on your workbench to put the full robot there.
-TODO:
+
+image::foot_mounting.jpg[]
+
+WARNING: Before mounting the feet, you need to pull over 1 tooth belt over each leg, which will be spanned in the next step, but the feet are too large to pull the belts over after mounting.
+
+image::first_foot_mounted.jpg[]
+image::both_feet_mounted.jpg[]
 
 === Cable confection
 We recommend using officially supported MOLEX SPOX wire crimp tool, but we also know that theses devices may be quite expensive. However, if you already own a crimp tool it is worth trying if it can be used here, please verify carefully for proper connections and not cutting the insulation of the cable. The method described here is for users without access to appropriate crimp tools. Despite the fact that solder crimping is generally a questionable method for industrial standards, this is still a valid workaround in home manufacturing.
@@ -754,6 +760,23 @@ Get all the cables, some 2mm width cable ties and a side-cutting pliers for proc
 
 image::cable_result.jpg[]
 
-=== Belt tensioning
+=== Belt Mounting and Tensioning
 
 TODO:
+
+image::belt_flower.jpg[]
+
+
+== Known Issues
+
+=== Hardware Issues
+
+*2019-02-27:* The gluing of the wood parts is sometimes difficult. Especially the exact alignment. Screws help align, but have play. Suggestion: Several 3D-printed cones holding the wooden parts aligned during gluing.
+
+*2019-02-28:* Using bolts with heads on both ends of the hip connector means that when it comes to (temporary) removal of the leg from the hip (e.g. for maintenance), the threading of the hip (PLA, plastic) will be stressed, it would be better to use headless bolds here, to be able to remove the leg without removing the bolt from the plastic part.
+
+*2019-03-22:* The bus connectors of the sensorimotor boards are a little too far out of the boards and this makes it sometimes hard to insert the motors in the wooden parts which need to have little tolerances for better belt tension.
+
+*2019-03-28:* The bolts for the heel axis are too long and cut into the wooden shank part. There must be added a save mechanical limit. Workaround: insert some damper (felt or similar) to absorb the impact and limit the damage to the wood.
+
+image::issue_04_no_save_limit_nut_cutting_in_heel.jpg[]
