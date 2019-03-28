@@ -1,24 +1,24 @@
+= Gretchen Assembly Documentation
+Doc Writer <kubisch@informatik.hu-berlin.de>
+v0.1, 2019-03-28
 :imagesdir: ./images
 :toc:
 
-= Gretchen Assembly Documentation
 
-This is the Gretchen assembly manual. Following these steps will enable you to build your humanoid robot from the assembly kit.
+_This is the Gretchen assembly manual. Following these steps will enable you to build your gretchen walking robot from the assembly kit. We encourage everybody to contribute to this project. Please share your ideas, upgrades, schematics, source-code and tricks._
+
 
 == Tool and Part List
-Before starting the assembly. Check that you have all the tools and parts in place.
+NOTE: Before starting the assembly. Check that you have all the tools and parts in place. We recommend to read this manual once before starting the assembly.
 
+WARNING: Self-manufacturing of the parts is encouraged but can not be officially supported and hence is to your own risk. If you decide to manufacture your own parts then tolerances may vary depending on the machines and methods you are using.
 
 === Recommended Tools
 
 You will need these tools to assemble the Gretchen (Dev0) robot.
 
-* Allen keys (hex drivers)
-** M1.6 (bearing set screws)
-** M2   (belt tensioners)
-** M4   (motors and bearings)
-
-* Ring spanner and socket wrench M8
+* Allen keys (hex drivers) sizes M4, M2, M1.6
+* Ring spanner and socket wrench, size M8
 * Small Phillips screw driver
 * Soldering iron with a very fine tip for motor assembly, up to 400°C (regulated) temperature
 * Brushes for painting the parts
@@ -27,11 +27,11 @@ You will need these tools to assemble the Gretchen (Dev0) robot.
 * Side-cutting pliers
 * Wire stripper
 * Utility knife
+* crimp tool (see section cable confection)
 * Multimeter
-
-* Sandpaper or files
+* Taps (threading drills), sizes M4, M8
 * Clamps (5-10) for glueing parts together
-
+* Sandpaper or files
 * Acrylic paint (< 0.5m², color of your choice)
 * Acrylic clear coat
 * Wood Glue (Express)
@@ -106,22 +106,11 @@ You will need these tools to assemble the Gretchen (Dev0) robot.
 
 *For self-manufacture your robot's body parts:*
 
-Home or Lab Quality printers shall suffice. Print with "Tough" PLA or ABS Plastic using 20% infill for the parts.
+Home or lab-quality printers shall suffice. Print with "Tough" PLA or ABS plastic using 20% infill for the parts.
 Print using 0.1 mm layer height for parts that contain pulleys (tooth belts need precision here). Print using 0.2 mm layers for all other parts. We recommend using water soluble support structure if available.
 
 When using professional 3D-printing service, consider SLS (Selective Laser Sintering).
 
-=== List of Cable Lengths
-
-[cols=3*,options=header]
-|===
-| Name          | Length
-| thigh-2-shank | 42cm
-| shank-2-foot  | 38cm
-| hip-2-thigh   | 42cm
-| hip-2-hip     | 16cm
-| thigh-2-thigh | 16cm
-|===
 
 
 == Glueing
@@ -142,7 +131,7 @@ Make sure you have all the tools needed for glueing:
 image::prepare_workbench_and_tools.jpg[]
 
 === Prepare the wood parts for glueing.
-Gently remove the remaining loose parts and price stickers, if any present. Depending on the laser cut depth, it may appear that remaining parts (clippings) must be removed carefully with a cutter knife or sandpaper.
+Gently remove the remaining loose parts and price stickers, if any are present. Depending on the laser cut depth, it may appear that remaining parts (clippings) must be removed carefully with a cutter knife or sandpaper.
 
 Approximated time needed: 5 - 10 minutes
 
@@ -634,3 +623,137 @@ image::mount_second_leg.jpg[]
 This is the expected result.
 
 image::torso_and_legs_assembled.jpg[]
+
+=== Assembly of the Feet
+
+
+==== Cardan Ankle Joint
+
+Get the parts and tools needed for cardan joint assembly.
+
+* pulley 33T with 4x M4 screw holes
+* pulley 42T with 4x M4 screw holes
+* cardan gimbal frame
+* 8x M4 x 12mm cylinder head screws
+* allen key M4
+* taps M4 for drilling the threadings
+
+image::assemble_the_ankle_cardan_joint.jpg[]
+
+Drill the threadings using the M4 taps.
+
+image::gimbal_threading.jpg[]
+
+Assemble the cardan joints using the M4 x 12mm screws.
+
+image::mount_pulleys_to_gimbal.jpg[]
+
+==== Prepare Foot
+
+Mount the remaining bearing to the feet.
+
+image::foot_assemble_bearings.jpg[]
+
+Insert the motors into the feet.
+
+image::feet_insert_motors.jpg[]
+image::prepared_foot.jpg[]
+
+==== Foot assembly
+
+Get all the tools and parts.
+
+* assembled cardan joint
+* preassembled foot
+* spanner, socket wrench for M8
+* M8 x 30mm and M8 x 40mm bolts
+* M8 hex nuts
+* M8 taps for cutting threadings
+* spring and regular washers
+* tooth belt GT3, 174 mm
+
+image::assemble_foot_prepare_tools.jpg[]
+*Step 1:* Begin with cutting the M8 threadings into the assembled cardan joint (front and back).
+
+*Step 2:* Continue with inserting the 40mm bolt including the spring washer from the front side.
+
+image::insert_bolt_and_spring_washer.jpg[]
+
+*Step 3:* Mount the cardan joint, pull the belt loosly over the cardan frame. Insert the 30mm bolt and second spring washer from the back of the foot (heel). Optionally use the regular washer to fill-up the play between cardan frame and heel mount. Use a pair of locked hex nuts for each bolt. The result should look like this. Repeat the process with the second foot.
+
+image::foot_result.jpg[]
+
+NOTE: The feet are perfectly idententical from the mechanical point of view. However, the IDs you assigned during motor software settings will define which one is the left and which one is the right foot.
+
+=== Mouting feet
+
+Get the two feet and the needed tools and prepare some space on your workbench to put the full robot there.
+TODO:
+
+=== Cable confection
+We recommend using officially supported MOLEX SPOX wire crimp tool, but we also know that theses devices may be quite expensive. However, if you already own a crimp tool it is worth trying if it can be used here, please verify carefully for proper connections and not cutting the insulation of the cable. The method described here is for users without access to appropriate crimp tools. Despite the fact that solder crimping is generally a questionable method for industrial standards, this is still a valid workaround in home manufacturing.
+
+TIP: Also consider to buy third party cables (e.g. from Robotis) or feel free to change the type of connector.
+
+==== List of Cable Lengths
+
+[cols=3*,options=header]
+|===
+| No. | Length | Position
+| 4   | 42cm | 2x thigh-to-shank, 2x hip-to-thigh
+| 2   | 38cm | 2x shank-to-foot
+| 4   | 16cm | 2x hip-to-hip, 2x thigh-to-thigh
+|===
+
+
+*Step 1:* Preparation: Cut the wires to their specific length given in the table above. Strip the wire ends approximately 2 mm. Twist the wires and pre-solder the wire ends and cut to 1.5 to 2mm. As a specific style the supply voltage carrying wire is denoted using a red insulation colored wire. GND and data lines are denoted with black cables. So for each cable you need 1 red and 3 black of a certain length. Repeat this with all the cables needed.
+
+image::cut_wires_and_strip_ends.jpg[]
+
+image::presolder_wire_ends_and_cut_to_2mm.jpg[]
+
+*Step 2:* Get the tools needed for cable confection.
+
+image::tools_for_wire_confection.jpg[]
+
+This is the recommented color code for the cable:
+
+image::pin_assignment.jpg[]
+
+Use flat-nose pliers to crimp the metal terminal arms (outer) around the cables insulation. Don't cut the insulation, and don't crimp to strong, just enough to hold the wire in place.
+
+image::crimp_wire_insulation_with_outer_arms.jpg[]
+
+Solder the wire ends onto the inner terminal arms using, thin solder and fine tip.
+
+image::solder_wire_end_onto_inner_terminal_arms.jpg[]
+image::solder_wire_result.jpg[]
+
+Assemble wire in the shown way. You hear a little click each time a wire terminal locks into the socket.
+
+TIP: Consider to use wire sleeving for the cables which connect joints and which are likely subject to mechanical wear.
+
+image::assembly_wire.jpg[]
+
+The bus system is symmetrical and benefits from twisted pair data wires for better signal quality. So gently twisting the data lines assures an approximately constant cable impedance over the full cable length and helps suppressing injected noise.
+
+image::twist_data_lines.jpg[]
+
+NOTE: Check for correct pin assignment, if not sure, use a multimeter.
+
+image::check_correct_pin_assignment.jpg[]
+
+==== Termination resistors
+
+Insert termination resistors (220 Ohms) into sockets using two terminals and solder carefully without buring the plastic socket.
+
+image::termination_resistors.jpg[]
+
+=== Cabling
+Get all the cables, some 2mm width cable ties and a side-cutting pliers for processing the wiring of the robot's motors.
+
+image::cable_result.jpg[]
+
+=== Belt tensioning
+
+TODO:
