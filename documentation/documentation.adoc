@@ -84,8 +84,8 @@ You will need these tools to assemble the Gretchen (Dev0) robot.
 | 100 | cable ties
 2+| *Bolts and Nuts*
 2+| *M8*
-| 4  | M8 DIN 912, Threaded Bolt, L=70mm, Hex Head, A2
-| 4  | M8 DIN 912, Threaded Bolt, L=60mm, Hex Head, A2
+| 2  | M8 DIN 912, Threaded Bolt, L=70mm, Hex Head, A2
+| 6  | M8 DIN 912, Threaded Bolt, L=60mm, Hex Head, A2
 | 2  | M8 DIN 912, Threaded Bolt, L=40mm, Hex Head, A2
 | 2  | M8 DIN 912, Threaded Bolt, L=30mm, Hex Head, A2
 | 28 | M8 DIN 439, Hex Nut, flat form A2

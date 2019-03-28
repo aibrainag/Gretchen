@@ -7,3 +7,5 @@
 
 
 2019-03-22: The bus connectors of the sensorimotor boards are a little too far out of the pcb and this makes it hard to insert the motors in the wooden parts which need to have little tolerances for better belt tension.
+
+2019-03-28: The bolts for the heel axis are too long and cut into the wooden shank part. There must be added a save mechanical limit. Workaround: insert some damper (felt or similar) to absorb the impact and limit the damage to the wood.
