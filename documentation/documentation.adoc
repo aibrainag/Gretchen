@@ -505,8 +505,28 @@ Get some labels with the motors' IDs and put them on each individual motor.
 image::label_motor_ids.jpg[]
 
 === Flashing Firmware
+How to flash the motors firmware is described best on the projects website link:http://sensorimotor.de[Sensorimotor.de].
 
-TODO
+You will need a flasher tool for AVR processors. E.g. from
+link:https://www.reichelt.de/usb-isp-programmer-for-all-avr-controllers-diamex-all-avr-p110345.html[Diamex]
+
+If you dont have a flasher tool available you can create one yourself by utilizing an Arduino, this is called Arduino ISP. There are several tutorial out there showing you how to do that.
+Arduino ISPs can also be link:https://store.arduino.cc/arduino-isp[bought].
+
+Firmware of Sensorimotor boards is flashed in two steps, assuming no firmware was ever installed, otherwise it is only the second step.
+
+*Step 1:* Flash the initial basic blink program and set the fuses.
+----
+cd blinky
+make
+make install
+----
+
+*Step 2:* Flash the most recent firmware:
+----
+cd Firmware
+scons program
+----
 
 video:  https://www.youtube.com/watch?v=vXhYqfAI-04[sensorimotor_assembly_06_test_and_setting_fuses]
 
@@ -693,6 +713,7 @@ image::foot_mounting.jpg[]
 
 WARNING: Before mounting the feet, you need to pull over 1 tooth belt over each leg, which will be spanned in the next step, but the feet are too large to pull the belts over after mounting.
 
+image::dont_forget_to_pull_over_belt.jpg[]
 image::first_foot_mounted.jpg[]
 image::both_feet_mounted.jpg[]
 
@@ -708,7 +729,7 @@ TIP: Also consider to buy third party cables (e.g. from Robotis) or feel free to
 | No. | Length | Position
 | 4   | 42cm | 2x thigh-to-shank, 2x hip-to-thigh
 | 2   | 38cm | 2x shank-to-foot
-| 4   | 16cm | 2x hip-to-hip, 2x thigh-to-thigh
+| 3   | 16cm | 1x hip-to-hip, 2x thigh-to-thigh
 |===
 
 
@@ -759,12 +780,45 @@ image::termination_resistors.jpg[]
 Get all the cables, some 2mm width cable ties and a side-cutting pliers for processing the wiring of the robot's motors.
 
 image::cable_result.jpg[]
+image::cables_tools.jpg[]
 
-=== Belt Mounting and Tensioning
+Cabling must be done with special care and probably you need to correct it several times and watch how the cables fall and fold when the joints are moved. Avoid squeezed cables as they may cut and tear apart.
 
-TODO:
+The general bus topology is a daisy chain. All motors are connected to the same bus. Avoid star connections, connect as a single line. Use termination resistors at both ends.
+
+image::cables_using_ties.jpg[]
+image::cables_top_front.jpg[]
+image::cables_top_back.jpg[]
+image::cables_drill_additional_hole.jpg[]
+image::cables_knee.jpg[]
+image::cables_shank_foot.jpg[]
+image::cables_detail.jpg[]
+image::cables_shank_foot_2.jpg[]
+
+As the last step, insert the termination resistors at each end of the line.
+
+=== Tooth Belt Mounting and Tensioning
+
+Get the tooth belts. Take a breath and watch the video for mounting advice. Tightening belts will take a little bit of trial and error and gets more fluently with experience.
 
 image::belt_flower.jpg[]
+
+video: https://www.youtube.com/watch?v=zkVwW5wzHFk[gretchen_assembly_tooth_belts_mounting]
+
+video::zkVwW5wzHFk[youtube]
+
+=== Optionals
+
+==== Using felt for the soles
+
+Optionally, you can add adhesive felt to the soles in order to improve the foot-to-ground contact.
+
+image::using_felt_for_feet.jpg[]
+image::feet_with_adhesive_felt.jpg[]
+
+=== Done.
+
+image::gretchen_assembly_finished.jpg[]
 
 
 == Known Issues
@@ -780,3 +834,7 @@ image::belt_flower.jpg[]
 *2019-03-28:* The bolts for the heel axis are too long and cut into the wooden shank part. There must be added a save mechanical limit. Workaround: insert some damper (felt or similar) to absorb the impact and limit the damage to the wood.
 
 image::issue_04_no_save_limit_nut_cutting_in_heel.jpg[]
+
+*2019-03-29:* The temperature sensors are very tightly packet in the motor box. If they get too close to the motor pin than a short circuit is likely, which may result in a irreversibly damaged/dead processor of the sensorimotor as soon as the H-bridge is powered for the first time. Workaround: Double check for short circuits and don't push too tight when closing the motor cover. This may indicate that your motor is prone to this problem. You may have to vary the position of the temp-sensor as shown in the picture. Don't connect voltage to boards with unsolved shortcircuits.
+
+image::issue_05_tempsensor_too_close_to_motor_wire.jpg[]
