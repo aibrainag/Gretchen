@@ -1,0 +1,51 @@
+
+*What is Gretchen for?* +
+_Gretchen is an open-source humanoid robot development platform, built for education and to provide a low-cost and low-level access to bipedal robots._
+
+*Why does Gretchen has neither arms nor head?* +
+_It is Gretchen's first development version for our humanoid robot. We just started in August 2018 and currently focus on the base platform to test walking and basic software development. It is up to the community how Gretchen will evolve. Since everything is open-source we encourage you to help creating the upper body and fill the void with your ideas and requirements._
+
+*What motor system is used by Gretchen?* +
+_Gretchen uses the open-source Sensorimotor System, which is a low-cost networked servomotor system with a lot of sensor feedback. Sensorimotors communicate via a RS485 serial bus._
+
+*Which control board is used or can I use to run Gretchen?* +
+_Until now, Gretchen does come without a specific central control board. The motor control system can be generally interfaced by any computational unit being able to establish a 1 MBaud serial communication. For instance, you can use your Rasperry Pi (Zero) together with an RS485-to-USB interface or run the motors with your Arduino using a Max485 breakout board._
+
+*Which programming language can I use to interface Gretchen's motors?* +
+_Currently there are libraries for Python and C/C++ available._
+
+*Can I write my own library for a specific programming language?* +
+_Yes, we highly encourage you to do so, since Gretchen is an open platform and support for multiple programming languages is needed._
+
+*Which type of MCU are the "Sensorimotor" control boards running?* +
+_The Sensorimotor boards are running an ATMEGA328p MCU with 16 MHz._
+
+*What kind of sensors are available on the Gretchen Robot, where are the sensors?* +
+_Gretchen's sensors are inside the motor boxes. Gretchen can measure each of it's joints position, current, voltage and temperature._
+
+*How many joints does Gretchen have?* +
+_Gretchen has currently 10 joints, 5 for each leg. Namely, hip roll/pitch, knee pitch and ankle roll/pitch._
+
+*How can I control the legs?* +
+_The sensorimotors rev1.1 support direct voltage/PWM control and position control (via library). Since current measurement is available as feedback, torque control is feasible but an official implementation is pending._
+
+*What is the update frequency for the control loop?* +
+_The motors can be updated in a 100Hz (10ms) cycle._
+
+*What is maximum torque of the motors?* +
+_The motors datasheet reports a stall torque of 2.47Nm at 6V/6A. However the Sensorimotor board can provide 12V/6A peak so depending on the specific condition (temperature, battery level etc) the max. torque is a lot higher than the value given in the datasheet. However, it must be noted, that driving motors outside the specification for too long increases temperature and reduces lifetime._
+
+*Can I run the Sensorimotor board with different motors?* +
+_Yes. DC motors can be driven with up to 12V/6A (max. peak)._
+
+*What is the maximum speed of the motors?* +
+_Datasheet reports 0.14sec / 60° at 6V and no load (50% duty cycle in PWM mode). But this is laboratory measurements. The motors' speed built in a specific joint and specific position will be a lot slower._
+
+*Does Gretchen come with batteries?* +
+_No. Currently the battery system is left to the developers. If you go with lithium polymer or similar then you can select 3S batteries (3 cells in series, nominal 3V7 x 3 = 11V1 (12V4 max.)_
+
+*What is the voltage range?* +
+_The recommended voltage range is 6-12 Volts._
+
+*You say, Gretchen is highly customizable, what does this mean?* +
+_It means that the Robot's specific shape and appearance can be modified by you since the hardware is open-source. If you have special requirements but no developent capabilities, speak to us (AIBrain), we can customize the robot according to your specification._
