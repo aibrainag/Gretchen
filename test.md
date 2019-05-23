@@ -1,3 +1,0 @@
-## COMMIT TEST
-
-Hello
